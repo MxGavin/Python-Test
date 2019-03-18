@@ -1,0 +1,16 @@
+git config --global user.name 'MxGavin'
+
+git config --global user.email 'mxgavin@gmail.com'
+
+git config -l
+
+git init
+
+git remote add origin https://github.com/MxGavin/Python-Test.git
+
+(
+    git remote set-url orgin https://github.com/MxGavin/Python-Test.git
+    git remote -v
+)
+
+git status
